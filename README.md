@@ -35,26 +35,3 @@ erDiagram
         int MedicationID PK
         string MedicationName
     }
-
-Key Technical Skills
-Database Design: Created a normalized schema with Primary and Foreign Key constraints to ensure referential integrity.
-
-SQL Development: Wrote DDL (Data Definition Language) scripts to build the infrastructure.
-
-Data Analysis: Utilized GROUP BY, JOIN, and Aggregate Functions (COUNT, AVG) to answer business questions.
-
-Temporal Analysis: Used date functions to generate monthly patient growth reports.
-
-Key Insights & Queries
-Workload Analysis: Calculated the average number of appointments per doctor to optimize staffing.
-
-Inventory Management: Identified the top 3 most prescribed medications to aid in stock planning.
-
-Patient Growth: Analyzed patient registration trends over the last 12 months.
-
-How to Run
-Clone the repository.
-
-Import setup_schema.sql into your MySQL Workbench or SQL environment to build the database.
-
-Run analytical_queries.sql to execute the business analysis reports.
